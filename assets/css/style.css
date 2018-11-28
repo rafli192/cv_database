@@ -1,0 +1,69 @@
+.f-left{
+  float: left;
+}
+.navbar{
+  float: right;
+}
+.navbar li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px 0 0 15px;
+}
+.navbar li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar li a:hover{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.app-name{
+  color: white;
+  text-align: center;
+}
+.form{
+  background-color: #d6d6d8;
+  margin: 230px auto 0 auto;
+  padding: 30px;
+  width: 252px;
+}
+.button{
+  padding: 5px 20px;
+  background-color: silver;
+  border: none;
+  color: black;
+  text-decoration: none;
+  margin: 0 5px 0 0;
+}
+.form-input{
+  width: 100%;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.dropbtn {
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #;}
+.dropdown:hover .dropdown-content {display: block;}
